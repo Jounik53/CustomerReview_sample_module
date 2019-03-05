@@ -1,0 +1,34 @@
+{
+    "customerReviews": {
+        "blades": {
+            "review-list": {
+                "labels": {
+                    "content": "Content",
+                    "modifiedDate": "Last updated",
+                    "no-review": "No Customer Reviews found"
+                }
+            },
+            "review-details": {
+                "labels": {
+                    "author": "Author",
+                    "rate": "Rating",
+                    "review": "Review",
+                    "virtues": "Virtues",
+                    "disadvantages": "Disadvantages",
+                    "product": "Product",
+                    "content": "Content",
+                    "date": "Date review",
+                    "link": "Go to product"
+                },
+                "title": "Customer Review information",
+                "info": "Customer Review info"
+            }
+        },
+        "widgets": {
+            "item-detail": {
+                "title": "Customer reviews",
+                "average": "Rating average"
+            }
+        }
+    }
+}

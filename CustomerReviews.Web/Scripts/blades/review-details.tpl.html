@@ -1,0 +1,52 @@
+<div class="blade-content">
+    <div class="blade-inner">
+        <div class="inner-block clearfix">
+            <form class="form" name="detailForm">
+                <fieldset>
+                    <div ng-init="setForm(detailForm)">
+                        <label class="form-label">{{'customerReviews.blades.review-details.labels.rate' | translate}}</label>
+                        <div class="form-input">
+                            <input ng-model="blade.currentEntity.rate" focus-on="" readonly required />
+                        </div>
+                    </div>
+                    <div ng-init="setForm(detailForm)">
+                        <label class="form-label">{{'customerReviews.blades.review-details.labels.content' | translate}}</label>
+                        <div class="form-input">
+                            <input ng-model="blade.currentEntity.content" focus-on="" readonly required />
+                        </div>
+                    </div>
+                    <div ng-init="setForm(detailForm)">
+                        <label class="form-label">{{'customerReviews.blades.review-details.labels.virtues' | translate}}</label>
+                        <div class="form-input">
+                            <input ng-model="blade.currentEntity.virtues" focus-on="" readonly required />
+                        </div>
+                    </div>
+                    <div ng-init="setForm(detailForm)">
+                        <label class="form-label">{{'customerReviews.blades.review-details.labels.disadvantages' | translate}}</label>
+                        <div class="form-input">
+                            <input ng-model="blade.currentEntity.disadvantages" focus-on="" readonly required />
+                        </div>
+                    </div>
+                </fieldset>
+                <div ng-init="setForm(detailForm)">
+                    <label class="form-label">{{'customerReviews.blades.review-details.labels.date' | translate
+                        }}</label>
+                    <div class="form-input">
+                        <div>{{blade.currentEntity.createdDate | date:'M/d/yyyy HH:mm:ss'}}</div>
+
+                    </div>
+                </div>
+                <fieldset>
+                    <div ng-init="setForm(detailForm)">
+                        <label class="form-label">{{'customerReviews.blades.review-details.labels.link' | translate}}</label>
+                        <div class="form-input">
+                            <a href ng-click="blade.openProductBlade()">{{product.name}}</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <va-widget-container group="reviewDetail" blade="blade" data="blade.item" gridster-opts="{width: 526}"></va-widget-container>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="gridster-cnt" ng-click="openBlade()">
+    <div class="cnt-inner">
+        <div class="list-count" ng-if="loading">...</div>
+        <div class="list-t" ng-if="!loading">
+            <ul class="list __prices">
+                <li class="list-item">{{ 'customerReviews.widgets.item-detail.title' | translate }} <span class="list-price"> {{totalCount}}</span></li>
+                <li class="list-item">{{ 'customerReviews.widgets.item-detail.average' | translate}} <span class="list-price"> {{ratesAverage}}</span></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
