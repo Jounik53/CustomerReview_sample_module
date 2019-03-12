@@ -22,3 +22,15 @@ I:\vc-samples\CustomerReviews\CustomerReviews.Core\obj\Debug\CustomerReviews.Cor
 I:\vc-samples\CustomerReviews\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.csproj.CopyComplete
 I:\vc-samples\CustomerReviews\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.dll
 I:\vc-samples\CustomerReviews\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.pdb
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\CustomerReviews.Core.dll
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\CustomerReviews.Core.pdb
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\Newtonsoft.Json.dll
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\VirtoCommerce.Domain.dll
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\VirtoCommerce.Platform.Core.dll
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\Newtonsoft.Json.xml
+I:\CustomerReview_sample_module\CustomerReviews.Core\bin\Debug\VirtoCommerce.Platform.Core.xml
+I:\CustomerReview_sample_module\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.csprojAssemblyReference.cache
+I:\CustomerReview_sample_module\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.csproj.CoreCompileInputs.cache
+I:\CustomerReview_sample_module\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.csproj.CopyComplete
+I:\CustomerReview_sample_module\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.dll
+I:\CustomerReview_sample_module\CustomerReviews.Core\obj\Debug\CustomerReviews.Core.pdb

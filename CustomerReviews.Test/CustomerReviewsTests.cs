@@ -38,7 +38,10 @@ namespace CustomerReviews.Test
                 CreatedDate = DateTime.Now,
                 CreatedBy = "initial data seed",
                 AuthorNickname = "John Doe",
-                Content = "Liked that"
+                Content = "Liked that",
+                Virtues = "Liked that!",
+                Disadvantages = "Not",
+                Rate = 3
             };
 
             CustomerReviewService.SaveCustomerReviews(new[] { item });
