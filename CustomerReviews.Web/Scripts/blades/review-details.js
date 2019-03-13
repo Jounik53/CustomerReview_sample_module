@@ -24,7 +24,6 @@ angular.module('CustomerReviews.Web')
                 items.get({ id: productId },
                     function(data) {
                         $scope.product = data;
-                        console.log($scope);
                         blade.subtitle = data.name;
                         blade.isLoading = false;
                     });

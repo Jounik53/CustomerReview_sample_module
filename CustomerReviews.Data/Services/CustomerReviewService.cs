@@ -49,23 +49,13 @@ namespace CustomerReviews.Data.Services
 
                         if (targetEntity != null)
                         {
-                            if (targetEntity.Rate > 5)
-                                targetEntity.Rate = 5;
-
-                            if (targetEntity.Rate < 0)
-                                targetEntity.Rate = 0;
-
+                            sourceEntity.Rate = ValidRate(sourceEntity.Rate);
                             changeTracker.Attach(targetEntity);
                             sourceEntity.Patch(targetEntity);
                         }
                         else
                         {
-                            if (sourceEntity.Rate > 5)
-                                sourceEntity.Rate = 5;
-
-                            if (sourceEntity.Rate < 0)
-                                sourceEntity.Rate = 0;
-
+                            sourceEntity.Rate = ValidRate(sourceEntity.Rate);
                             repository.Add(sourceEntity);
                         }
                     }
@@ -83,6 +73,14 @@ namespace CustomerReviews.Data.Services
                 repository.DeleteCustomerReviews(ids);
                 CommitChanges(repository);
             }
+        }
+
+        private int ValidRate(int rate)
+        {
+            if (rate > 5) rate = 5;
+            if (rate < 0) rate = 0;
+
+            return rate;
         }
     }
 }

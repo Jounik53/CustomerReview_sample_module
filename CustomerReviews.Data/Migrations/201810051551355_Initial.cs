@@ -1,15 +1,14 @@
 namespace CustomerReviews.Data.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class Initial : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.CustomerReview",
-                c => new
+                    "dbo.CustomerReview",
+                    c => new
                     {
                         Id = c.String(nullable: false, maxLength: 128),
                         AuthorNickname = c.String(maxLength: 128),
@@ -22,12 +21,6 @@ namespace CustomerReviews.Data.Migrations
                         ModifiedBy = c.String(maxLength: 64),
                     })
                 .PrimaryKey(t => t.Id);
-            
-        }
-        
-        public override void Down()
-        {
-            DropTable("dbo.CustomerReview");
         }
     }
 }

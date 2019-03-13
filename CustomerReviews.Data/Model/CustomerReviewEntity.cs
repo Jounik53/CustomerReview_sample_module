@@ -7,17 +7,26 @@ namespace CustomerReviews.Data.Model
 {
     public class CustomerReviewEntity : AuditableEntity
     {
-        [StringLength(128)] public string AuthorNickname { get; set; }
+        [StringLength(128)]
+        public string AuthorNickname { get; set; }
 
-        [Required] [StringLength(1024)] public string Content { get; set; }
+        [Required]
+        [StringLength(1024)]
+        public string Content { get; set; }
 
         public bool IsActive { get; set; }
 
-        [Required] [StringLength(128)] public string ProductId { get; set; }
+        [Required]
+        [StringLength(128)]
+        public string ProductId { get; set; }
 
-        [Required] [StringLength(1024)] public string Virtues { get; set; }
+        [Required]
+        [StringLength(1024)]
+        public string Virtues { get; set; }
 
-        [Required] [StringLength(1024)] public string Disadvantages { get; set; }
+        [Required]
+        [StringLength(1024)]
+        public string Disadvantages { get; set; }
 
         public int Rate { get; set; }
 

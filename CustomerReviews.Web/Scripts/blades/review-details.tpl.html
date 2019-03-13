@@ -29,11 +29,9 @@
                     </div>
                 </fieldset>
                 <div ng-init="setForm(detailForm)">
-                    <label class="form-label">{{'customerReviews.blades.review-details.labels.date' | translate
-                        }}</label>
+                    <label class="form-label">{{'customerReviews.blades.review-details.labels.date' | translate}}</label>
                     <div class="form-input">
                         <div>{{blade.currentEntity.createdDate | date:'M/d/yyyy HH:mm:ss'}}</div>
-
                     </div>
                 </div>
                 <fieldset>
@@ -44,7 +42,6 @@
                         </div>
                     </div>
                 </fieldset>
-
                 <va-widget-container group="reviewDetail" blade="blade" data="blade.item" gridster-opts="{width: 526}"></va-widget-container>
             </form>
         </div>
